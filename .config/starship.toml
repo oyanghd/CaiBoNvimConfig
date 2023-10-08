@@ -1,0 +1,50 @@
+# Get editor completions based on the config schema
+"$schema" = 'https://starship.rs/config-schema.json'
+
+# Inserts a blank line between shell prompts
+add_newline = true
+
+# Replace the '❯' symbol in the prompt with '➜'
+[character] # The name of the module we are configuring is 'character'
+success_symbol = '[➜](bold green)' # The 'success_symbol' segment is being set to '➜' with the color 'bold green'
+
+# Disable the package module, hiding it from the prompt completely
+[package]
+disabled = true
+
+format = '$all'
+
+[hostname]
+ssh_only = false
+style = 'bold red'
+format = '[$ssh_symbol$hostname]($style) in '
+disabled = false
+
+[localip]
+ssh_only = false
+disabled = false
+
+[git_branch]
+symbol = '🌱 '
+truncation_length = 4
+truncation_symbol = ''
+
+
+[directory]
+truncate_to_repo = true
+
+[conda]
+format = '[$symbol$environment](dimmed green) '
+
+[memory_usage]
+disabled = false
+threshold = -1
+symbol = ' '
+style = 'green'
+# ~/.config/starship.toml
+
+[time]
+style = 'fg:#f7acbc'
+disabled = false
+format = '🕙[\[ $time \]]($style) '
+time_format = '%T'
