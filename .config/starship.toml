@@ -9,8 +9,8 @@ add_newline = true
 success_symbol = '[➜](bold green)' # The 'success_symbol' segment is being set to '➜' with the color 'bold green'
 
 # Disable the package module, hiding it from the prompt completely
-[package]
-disabled = true
+# [package]
+# disabled = true
 
 format = '$all'
 
@@ -34,6 +34,7 @@ truncation_symbol = ''
 truncate_to_repo = true
 
 [conda]
+disabled = false
 format = '[$symbol$environment](dimmed green) '
 
 [memory_usage]
@@ -48,3 +49,7 @@ style = 'fg:#f7acbc'
 disabled = false
 format = '🕙[\[ $time \]]($style) '
 time_format = '%T'
+# ~/.config/starship.toml
+
+[package]
+format = 'via [🎁 $version](208 bold) '
