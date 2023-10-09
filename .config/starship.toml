@@ -16,7 +16,7 @@ format = '$all'
 
 [hostname]
 ssh_only = false
-style = 'bold red'
+style = 'fg:#f08080'
 format = '[$ssh_symbol$hostname]($style) in '
 disabled = false
 
@@ -32,7 +32,7 @@ truncation_symbol = ''
 
 [directory]
 truncate_to_repo = true
-
+style = 'fg:#ff6347'
 [conda]
 disabled = false
 format = '[$symbol$environment](dimmed green) '
@@ -41,11 +41,11 @@ format = '[$symbol$environment](dimmed green) '
 disabled = false
 threshold = -1
 symbol = ' '
-style = 'green'
+style = 'fg:#228b22'
 # ~/.config/starship.toml
 
 [time]
-style = 'fg:#f7acbc'
+style = 'fg:#00bfff'
 disabled = false
 format = '🕙[\[ $time \]]($style) '
 time_format = '%T'
