@@ -19,9 +19,10 @@ alias pi='pip install -i https://pypi.tuna.tsinghua.edu.cn/simple'
 alias cp='xcp'
 alias vi='nvim'
 alias vim='nvim'
+alias to='tokei'
 set -x FZF_DEFAULT_OPTS "--color=hl:#f391a9,fg:#afdfe4,hl+:#f391a9,fg+:#ffe600"
 set fish_color_command green --bold
-set fish_color_autosuggestion 6495ed
+set fish_color_autosuggestion f58220
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 if test -f /home/cuibo/miniconda3/bin/conda

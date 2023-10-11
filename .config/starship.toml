@@ -29,6 +29,14 @@ symbol = '🌱 '
 truncation_length = 4
 truncation_symbol = ''
 
+# ~/.config/starship.toml
+
+# [username]
+# style_user = 'blue bold'
+# style_root = 'black bold'
+# format = '[$user]($style) use '
+# disabled = false
+# show_always = true
 
 [directory]
 truncate_to_repo = true
