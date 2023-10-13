@@ -9,7 +9,7 @@ error_symbol = '[✗](bold red)'
 [hostname]
 ssh_only = false
 style = 'fg:#ff0000'
-format = '[$ssh_symbol$hostname]($style) in '
+format = '[$ssh_symbol$hostname]($style) 🌏 '
 disabled = false
 
 [localip]
@@ -40,7 +40,7 @@ disabled = false
 threshold = -1
 symbol = '🐏'
 style = 'fg:#228b22'
-format = 'costs $symbol [${ram}( )]($style) '
+format = '$symbol [${ram}( )]($style) '
 
 [time]
 style = 'fg:#ffc0cb'
@@ -78,5 +78,6 @@ commit_hash_length = 4
 tag_symbol = '🔖 '
 
 [cmd_duration]
+style = 'fg:#ff7f50'
 min_time = 500
-format = 'take [$duration](bold pink)'
+format = '✨ [$duration]($style)'
