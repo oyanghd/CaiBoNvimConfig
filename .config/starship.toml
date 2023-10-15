@@ -21,15 +21,15 @@ symbol = '🌱 '
 truncation_length = 4
 truncation_symbol = ''
 
-# [username]
-# style_user = 'blue bold'
-# style_root = 'black bold'
-# format = '[$user]($style) use '
-# disabled = false
-# show_always = true
+[username]
+style_user = 'blue bold'
+format = '[$user]($style) 🎯 '
+disabled = false
+show_always = true
 
 [directory]
-truncate_to_repo = true
+format = '󰑢 [$path]($style)[$read_only]($read_only_style) '
+# truncate_to_repo = true
 style = 'fg:#00bfff'
 [conda]
 disabled = false
@@ -81,3 +81,16 @@ tag_symbol = '🔖 '
 style = 'fg:#ff7f50'
 min_time = 500
 format = '✨ [$duration]($style)'
+# ~/.config/starship.toml
+
+[docker_context]
+format = 'via [🐋 $context](blue bold)'
+
+# ~/.config/starship.toml
+
+[container]
+symbol = "⬢"
+format = '[$symbol \[$name\]]($style) '
+
+[python]
+format = '[${symbol}${pyenv_prefix}(${version} )(\($virtualenv\) )]($style)'
