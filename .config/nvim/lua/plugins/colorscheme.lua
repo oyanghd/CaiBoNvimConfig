@@ -79,6 +79,9 @@ return {
         highlights["@include"] = {
           fg = "#00ae9d",
         }
+        highlights["@exception"] = {
+          fg = "#1e90ff",
+        }
         highlights["@namespace"] = {
           fg = "#ff00ff",
           style = {
@@ -104,7 +107,7 @@ return {
           fg = "#33a3dc",
         }
         highlights["@lsp.type.property"] = {
-          fg = "#00a6ac",
+          fg = "#00ffff",
         }
         highlights["@storageclass"] = {
           fg = "#c77eb5",
