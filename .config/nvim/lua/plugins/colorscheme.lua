@@ -62,7 +62,7 @@ return {
           },
         }
         highlights["@lsp.type.macro"] = {
-          fg = "#9b95c9",
+          fg = "#8552a1",
         }
         highlights.Comment = {
           fg = "#007947",
