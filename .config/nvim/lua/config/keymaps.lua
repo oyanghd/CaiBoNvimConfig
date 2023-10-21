@@ -25,3 +25,4 @@ map(
 )
 map("n", "j", "<Plug>(accelerated_jk_gj)")
 map("n", "k", "<Plug>(accelerated_jk_gk)")
+map("n", "<space>tn", ":<C-u>lua require('tint').toggle()<cr>", { desc = "Tint toggle", silent = true, nowait = true })

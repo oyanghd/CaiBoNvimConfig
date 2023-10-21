@@ -49,20 +49,16 @@ return {
         }
         highlights["@variable"] = {
           fg = "#afdfe4",
-          style = {},
         }
         highlights["@preproc"] = {
           fg = "#fdb933",
         }
 
         highlights["@lsp.type.function"] = {
-          fg = "#ffa500",
-          style = {
-            bold = true,
-          },
+          fg = "#da70d6",
         }
         highlights["@lsp.type.macro"] = {
-          fg = "#8552a1",
+          fg = "#9370db",
         }
         highlights.Comment = {
           fg = "#007947",
@@ -84,9 +80,6 @@ return {
         }
         highlights["@namespace"] = {
           fg = "#ff00ff",
-          style = {
-            bold = true,
-          },
         }
         highlights["@lsp.type.namespace"] = {
           link = "@namespace",
@@ -109,8 +102,11 @@ return {
         highlights["@lsp.type.property"] = {
           fg = "#00ffff",
         }
+        highlights["@lsp.type.method"] = {
+          fg = "#ff8c00",
+        }
         highlights["@storageclass"] = {
-          fg = "#c77eb5",
+          fg = "#4169e1",
         }
         highlights["@lsp.type.namespace.go"] = {
           fg = "#00ae9d",
@@ -139,11 +135,14 @@ return {
         highlights["@repeat"] = {
           fg = "#ef5b9c",
         }
+        highlights["@Constant"] = {
+          fg = "#f2eada",
+        }
         highlights["@lsp.type.macro.cuda"] = {
           fg = "#ed1941",
         }
-        highlights["@lsp.type.type"] = {
-          fg = "#dda0dd",
+        highlights["@Type"] = {
+          fg = "#f4a460",
         }
         highlights["@lsp.type.type.go"] = {
           fg = "#33a3dc",

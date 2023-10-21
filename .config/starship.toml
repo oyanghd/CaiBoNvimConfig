@@ -49,7 +49,7 @@ format = '🕙[\[$time\]]($style) '
 time_format = '%T'
 
 [package]
-format = 'pkg [🎁 $version](208 bold) '
+format = '🎁 [$version](208 bold) '
 
 
 [git_status]
@@ -83,13 +83,11 @@ min_time = 500
 format = '✨ [$duration]($style)'
 # ~/.config/starship.toml
 
-[docker_context]
-format = 'via [🐋 $context](blue bold)'
 
 # ~/.config/starship.toml
 
 [container]
-symbol = "⬢"
+symbol = "🐋"
 format = '[$symbol \[$name\]]($style) '
 
 [python]
