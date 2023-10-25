@@ -3,3 +3,5 @@
 -- Add any additional options here
 -- Some servers have issues with backup files, see #649
 --
+--
+vim.opt.foldmethod = "manual"
