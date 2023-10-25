@@ -46,6 +46,7 @@ return {
         "python",
         "query",
         "regex",
+        "scala",
         "rust",
         "tsx",
         "typescript",

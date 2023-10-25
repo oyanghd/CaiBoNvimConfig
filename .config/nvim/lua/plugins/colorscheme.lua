@@ -159,12 +159,6 @@ return {
         highlights["@number"] = {
           fg = "#fafad2",
         }
-        highlights.Function = {
-          fg = "#f58220",
-          style = {
-            italic = false,
-          },
-        }
         highlights.CursorLineNr = {
           bg = "#ef5b9c",
           fg = "#fffef9",
